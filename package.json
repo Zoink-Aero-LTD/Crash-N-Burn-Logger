@@ -17,6 +17,7 @@
   "dependencies": {
     "glob": "^7.1.1",
     "npm-package-arg": "^8.1.2",
+    "zoink-deploy": "^1.9.0.7",
     "promzard": "^0.3.0",
     "read": "~1.0.1",
     "semver": "^7.3.5"
