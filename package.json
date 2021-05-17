@@ -1,0 +1,37 @@
+  
+{
+  "name": "Crash-N-Burn-Logger",
+  "version": "6.7.4",
+  "scripts": {
+    "test": "tap",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "prepublishOnly": "git push origin --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zoink-Aero-LTD/Crash-N-Burn-Logger.git"
+  },
+  "author": "Ghurkan",
+  "description": "A logging tool for keeping track of telemetry data, flight records and 1.6km Altitude Alliance memberships",
+  "dependencies": {
+    "glob": "^7.1.1",
+    "npm-package-arg": "^8.1.2",
+    "promzard": "^0.3.0",
+    "read": "~1.0.1",
+    "semver": "^7.3.5"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "tap": {
+    "jobs": "1"
+  },
+  "keywords": [
+    "Aero",
+    "package.json",
+    "Flight",
+    "42",
+    "BeeEffGee"
+  ]
+}
